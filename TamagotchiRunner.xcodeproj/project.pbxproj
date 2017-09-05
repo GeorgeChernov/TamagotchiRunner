@@ -17,6 +17,16 @@
 		A246093C1F5F33CD00BA2451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A246093A1F5F33CD00BA2451 /* LaunchScreen.storyboard */; };
 		A24609471F5F33CD00BA2451 /* TamagotchiRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24609461F5F33CD00BA2451 /* TamagotchiRunnerTests.swift */; };
 		A24609521F5F33CD00BA2451 /* TamagotchiRunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24609511F5F33CD00BA2451 /* TamagotchiRunnerUITests.swift */; };
+		A24609651F5F34A100BA2451 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24609631F5F34A100BA2451 /* Interface.storyboard */; };
+		A24609671F5F34A100BA2451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24609661F5F34A100BA2451 /* Assets.xcassets */; };
+		A246096E1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A246096D1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A24609751F5F34A100BA2451 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24609741F5F34A100BA2451 /* InterfaceController.swift */; };
+		A24609771F5F34A100BA2451 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A24609761F5F34A100BA2451 /* GameScene.sks */; };
+		A24609791F5F34A100BA2451 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24609781F5F34A100BA2451 /* GameScene.swift */; };
+		A246097B1F5F34A100BA2451 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A246097A1F5F34A100BA2451 /* ExtensionDelegate.swift */; };
+		A246097D1F5F34A100BA2451 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A246097C1F5F34A100BA2451 /* NotificationController.swift */; };
+		A246097F1F5F34A100BA2451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A246097E1F5F34A100BA2451 /* Assets.xcassets */; };
+		A24609831F5F34A100BA2451 /* TamagotchiRunnerWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A24609611F5F34A100BA2451 /* TamagotchiRunnerWatch.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +44,46 @@
 			remoteGlobalIDString = A24609271F5F33CD00BA2451;
 			remoteInfo = TamagotchiRunner;
 		};
+		A246096F1F5F34A100BA2451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24609201F5F33CD00BA2451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A246096C1F5F34A100BA2451;
+			remoteInfo = "TamagotchiRunnerWatch Extension";
+		};
+		A24609811F5F34A100BA2451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24609201F5F33CD00BA2451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24609601F5F34A100BA2451;
+			remoteInfo = TamagotchiRunnerWatch;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A24609871F5F34A100BA2451 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A246096E1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A246098B1F5F34A100BA2451 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A24609831F5F34A100BA2451 /* TamagotchiRunnerWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A24609281F5F33CD00BA2451 /* TamagotchiRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamagotchiRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +102,19 @@
 		A246094D1F5F33CD00BA2451 /* TamagotchiRunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiRunnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24609511F5F33CD00BA2451 /* TamagotchiRunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiRunnerUITests.swift; sourceTree = "<group>"; };
 		A24609531F5F33CD00BA2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24609611F5F34A100BA2451 /* TamagotchiRunnerWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamagotchiRunnerWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24609641F5F34A100BA2451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A24609661F5F34A100BA2451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A24609681F5F34A100BA2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A246096D1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TamagotchiRunnerWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24609731F5F34A100BA2451 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A24609741F5F34A100BA2451 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A24609761F5F34A100BA2451 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A24609781F5F34A100BA2451 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A246097A1F5F34A100BA2451 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A246097C1F5F34A100BA2451 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A246097E1F5F34A100BA2451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A24609801F5F34A100BA2451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +139,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A246096A1F5F34A100BA2451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +155,8 @@
 				A246092A1F5F33CD00BA2451 /* TamagotchiRunner */,
 				A24609451F5F33CD00BA2451 /* TamagotchiRunnerTests */,
 				A24609501F5F33CD00BA2451 /* TamagotchiRunnerUITests */,
+				A24609621F5F34A100BA2451 /* TamagotchiRunnerWatch */,
+				A24609711F5F34A100BA2451 /* TamagotchiRunnerWatch Extension */,
 				A24609291F5F33CD00BA2451 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +167,8 @@
 				A24609281F5F33CD00BA2451 /* TamagotchiRunner.app */,
 				A24609421F5F33CD00BA2451 /* TamagotchiRunnerTests.xctest */,
 				A246094D1F5F33CD00BA2451 /* TamagotchiRunnerUITests.xctest */,
+				A24609611F5F34A100BA2451 /* TamagotchiRunnerWatch.app */,
+				A246096D1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +207,39 @@
 			path = TamagotchiRunnerUITests;
 			sourceTree = "<group>";
 		};
+		A24609621F5F34A100BA2451 /* TamagotchiRunnerWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A24609631F5F34A100BA2451 /* Interface.storyboard */,
+				A24609661F5F34A100BA2451 /* Assets.xcassets */,
+				A24609681F5F34A100BA2451 /* Info.plist */,
+			);
+			path = TamagotchiRunnerWatch;
+			sourceTree = "<group>";
+		};
+		A24609711F5F34A100BA2451 /* TamagotchiRunnerWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A24609741F5F34A100BA2451 /* InterfaceController.swift */,
+				A24609761F5F34A100BA2451 /* GameScene.sks */,
+				A24609781F5F34A100BA2451 /* GameScene.swift */,
+				A246097A1F5F34A100BA2451 /* ExtensionDelegate.swift */,
+				A246097C1F5F34A100BA2451 /* NotificationController.swift */,
+				A246097E1F5F34A100BA2451 /* Assets.xcassets */,
+				A24609801F5F34A100BA2451 /* Info.plist */,
+				A24609721F5F34A100BA2451 /* Supporting Files */,
+			);
+			path = "TamagotchiRunnerWatch Extension";
+			sourceTree = "<group>";
+		};
+		A24609721F5F34A100BA2451 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24609731F5F34A100BA2451 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,10 +250,12 @@
 				A24609241F5F33CD00BA2451 /* Sources */,
 				A24609251F5F33CD00BA2451 /* Frameworks */,
 				A24609261F5F33CD00BA2451 /* Resources */,
+				A246098B1F5F34A100BA2451 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A24609821F5F34A100BA2451 /* PBXTargetDependency */,
 			);
 			name = TamagotchiRunner;
 			productName = TamagotchiRunner;
@@ -190,6 +298,40 @@
 			productReference = A246094D1F5F33CD00BA2451 /* TamagotchiRunnerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A24609601F5F34A100BA2451 /* TamagotchiRunnerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24609881F5F34A100BA2451 /* Build configuration list for PBXNativeTarget "TamagotchiRunnerWatch" */;
+			buildPhases = (
+				A246095F1F5F34A100BA2451 /* Resources */,
+				A24609871F5F34A100BA2451 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24609701F5F34A100BA2451 /* PBXTargetDependency */,
+			);
+			name = TamagotchiRunnerWatch;
+			productName = TamagotchiRunnerWatch;
+			productReference = A24609611F5F34A100BA2451 /* TamagotchiRunnerWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A246096C1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24609841F5F34A100BA2451 /* Build configuration list for PBXNativeTarget "TamagotchiRunnerWatch Extension" */;
+			buildPhases = (
+				A24609691F5F34A100BA2451 /* Sources */,
+				A246096A1F5F34A100BA2451 /* Frameworks */,
+				A246096B1F5F34A100BA2451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TamagotchiRunnerWatch Extension";
+			productName = "TamagotchiRunnerWatch Extension";
+			productReference = A246096D1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +344,7 @@
 				TargetAttributes = {
 					A24609271F5F33CD00BA2451 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6TFSLS2DB4;
 						ProvisioningStyle = Automatic;
 					};
 					A24609411F5F33CD00BA2451 = {
@@ -213,6 +356,16 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A24609271F5F33CD00BA2451;
+					};
+					A24609601F5F34A100BA2451 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6TFSLS2DB4;
+						ProvisioningStyle = Automatic;
+					};
+					A246096C1F5F34A100BA2451 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6TFSLS2DB4;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -232,6 +385,8 @@
 				A24609271F5F33CD00BA2451 /* TamagotchiRunner */,
 				A24609411F5F33CD00BA2451 /* TamagotchiRunnerTests */,
 				A246094C1F5F33CD00BA2451 /* TamagotchiRunnerUITests */,
+				A24609601F5F34A100BA2451 /* TamagotchiRunnerWatch */,
+				A246096C1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +415,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A246095F1F5F34A100BA2451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24609671F5F34A100BA2451 /* Assets.xcassets in Resources */,
+				A24609651F5F34A100BA2451 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A246096B1F5F34A100BA2451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A246097F1F5F34A100BA2451 /* Assets.xcassets in Resources */,
+				A24609771F5F34A100BA2451 /* GameScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +465,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A24609691F5F34A100BA2451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24609791F5F34A100BA2451 /* GameScene.swift in Sources */,
+				A24609751F5F34A100BA2451 /* InterfaceController.swift in Sources */,
+				A246097D1F5F34A100BA2451 /* NotificationController.swift in Sources */,
+				A246097B1F5F34A100BA2451 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +488,16 @@
 			isa = PBXTargetDependency;
 			target = A24609271F5F33CD00BA2451 /* TamagotchiRunner */;
 			targetProxy = A246094E1F5F33CD00BA2451 /* PBXContainerItemProxy */;
+		};
+		A24609701F5F34A100BA2451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A246096C1F5F34A100BA2451 /* TamagotchiRunnerWatch Extension */;
+			targetProxy = A246096F1F5F34A100BA2451 /* PBXContainerItemProxy */;
+		};
+		A24609821F5F34A100BA2451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24609601F5F34A100BA2451 /* TamagotchiRunnerWatch */;
+			targetProxy = A24609811F5F34A100BA2451 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +516,14 @@
 				A246093B1F5F33CD00BA2451 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A24609631F5F34A100BA2451 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24609641F5F34A100BA2451 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -424,11 +626,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TFSLS2DB4;
 				INFOPLIST_FILE = TamagotchiRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = georgechernov.TamagotchiRunner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,11 +640,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TFSLS2DB4;
 				INFOPLIST_FILE = TamagotchiRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = georgechernov.TamagotchiRunner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +704,76 @@
 			};
 			name = Release;
 		};
+		A24609851F5F34A100BA2451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6TFSLS2DB4;
+				INFOPLIST_FILE = "TamagotchiRunnerWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = georgechernov.TamagotchiRunner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		A24609861F5F34A100BA2451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6TFSLS2DB4;
+				INFOPLIST_FILE = "TamagotchiRunnerWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = georgechernov.TamagotchiRunner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		A24609891F5F34A100BA2451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TFSLS2DB4;
+				IBSC_MODULE = TamagotchiRunnerWatch_Extension;
+				INFOPLIST_FILE = TamagotchiRunnerWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = georgechernov.TamagotchiRunner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		A246098A1F5F34A100BA2451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TFSLS2DB4;
+				IBSC_MODULE = TamagotchiRunnerWatch_Extension;
+				INFOPLIST_FILE = TamagotchiRunnerWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = georgechernov.TamagotchiRunner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,6 +807,22 @@
 			buildConfigurations = (
 				A246095D1F5F33CD00BA2451 /* Debug */,
 				A246095E1F5F33CD00BA2451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A24609841F5F34A100BA2451 /* Build configuration list for PBXNativeTarget "TamagotchiRunnerWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24609851F5F34A100BA2451 /* Debug */,
+				A24609861F5F34A100BA2451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A24609881F5F34A100BA2451 /* Build configuration list for PBXNativeTarget "TamagotchiRunnerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24609891F5F34A100BA2451 /* Debug */,
+				A246098A1F5F34A100BA2451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

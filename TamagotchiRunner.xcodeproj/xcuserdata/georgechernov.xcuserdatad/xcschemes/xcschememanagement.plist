@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TamagotchiRunnerWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TamagotchiRunnerWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>A246094C1F5F33CD00BA2451</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A24609601F5F34A100BA2451</key>
 		<dict>
 			<key>primary</key>
 			<true/>
